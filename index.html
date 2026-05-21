@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust Travels|Explore the World</title>
+   <style>
+   .watermark {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0.2;
+        z-index: 9999;
+        pointer-events: none;
+    }
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      color: black;
+      text-shadow: 0 0 10px #d400ff, 0 0 20px #4400ff, 0 0 30px #0011ff;
+      animation: glow 2s infinite alternate;
+      background-color: rgba(0, 255, 242, 0.233);
+      padding: 40px;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #0026ff; }
+      to { text-shadow: 0 0 30px #7700ff, 0 0 50px #ae00ff; }
+    }
+    aside .move{
+    width: fit-content;
+    background-color: #088178;
+    padding: 10px;
+    animation: moving 10s linear infinite;
+  }
+
+  @keyframes moving{
+    from { transform: translate(100%); }
+    to { transform: translate(-100%); }
+  }
+   ul{
+    text-align: center;
+    list-style-position:inside;
+    padding: 0;
+  }
+
+   
+  </style>
+</head>
+<body>
+
+  <header>
+    <img class="watermark" src="travel.webp"/>
+  <header><center>
+    <h1><b>🛬Wanderlust Travels</b></h1>
+    <h2><i>Welcome to Wanderlust Travels <br>Explore the world with us</i></h2>
+    </center>
+    </header>
+    <center>
+    <nav><hr>
+      <a href="#home">Home</a> |
+      <a href="#Destinations">Destinations</a> |
+      <a href="#Packages">Packages</a> |
+      <a href="#contact">Contact</a>
+    </nav>  <hr> 
+    </center>
+
+  <main><center>
+    <section id="home">
+      <h2>About us</h2>
+      <p>
+         Wanderlust Travels helps people to travel Beautiful places,explore adventures and give you a memorable experiences
+      </p>
+      <figure>
+        <img src="image.webp" alt="travel" width="400">
+        <figcaption style="color:#0026ff">Wanderlust</figcaption>
+      </figure>
+      </section><hr>
+
+    <section id="Destinations">
+
+      <h2>🌍Popular Destinations</h2>
+      <article>
+        <h2 style="color:#ff0055"><b><u>Switzerland</b></u></h2>
+        <p>famous for its snowy mountains,beautiful lakes,chocolates and scenic landscapes that attracts tourists from the world </p>        
+         <figure>
+          <img src="switze.webp" alt="Switzerland"/>
+         <figcaption style="color: #ff0055;"> Switzerland</figcaption>
+         </figure>
+        </article>
+    <article>
+        <h2 style="color: #0026ff;"><b><u>Edinburgh</u></b></h2>
+        <p>Experience the charm of Edinburgh through its historic castles,cultural festivals and beautiful streets</p>
+       <figure>
+        <img src="edin.webp" alt="Edinburgh"/>
+        <figcaption style="color:#0026ff;">Edinburgh</figcaption>
+       </figure>
+      </article>
+       <article>
+          <h2 style="color:#ae00ff;"><b><u>Liechtenstein</u></b></h2>
+          <p>Discover the Peaceful atmosphere of Liechtenstein surrounded by stunning mountains and picturesque villages</p>
+       <figure>
+        <img src="lie.webp" alt="Liechtenstein"/>
+        <figcaption style="color: #ae00ff;"><b><u>Liechtenstein</u></b></figcaption>
+       </figure>
+        </article><hr>
+    </section>
+
+    <section id="Packages">
+      <h2>Travel Packages</h2>
+      <article>
+        <h3 style="color: crimson;">Family Packages</h3>
+        <p>Perfect trips for families with comfortable stays.</p>
+      </article>
+      <article>
+        <h3 style="color: crimson;">Adventure Packages</h3>
+        <p>Exciting Trekking,Campingand adventure activities and rides.</p>
+      </article>
+    </section>
+    </center>
+  </main><hr>
+<aside><center>
+     <h2>Travel Tips</h2>
+     <ul>
+         <li>Carry ID proofs</li>
+         <li>Pack light luggage</li>
+         <li>Keep Emergency contact</li>
+     </ul>
+          <h2>Travel Offers</h2>
+          <p class="move">Book now and get 20% OFF on Switzerland Tour Packages</p>
+          </center>
+</aside><hr>
+  
+  <footer id="contact" style="background-color: darkslategrey; color:black"; padding:10px;>
+    <center>
+    <p>Contact us:  
+      <a href="mailto:wanderlusttravels@gmail.com">wanderlusttravels.in</a></p>
+    <p><a href="tel:+91 8123456790">Call us</a></p>
+      <p>©2026 Wanderlust Travels.All rights reserved </p>
+    </center>
+  </footer>
+
+</body>
+</html>
